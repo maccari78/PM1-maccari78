@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/modulo1/PM1-maccari78/styles/reset.css">
+    <link rel="stylesheet" href="/modulo1/PM1-maccari78/styles/styles.css">
+    <link rel="icon" href="/modulo1/PM1-maccari78/assets/images/html-5_5968267.png">
+    <title>Portafolio - Danilo Maccari</title>
+</head>
+<body>
+    <header>
+        <h1>Danilo Maccari</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#acercaDe">Acerca de mí</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#favActivities">Actividades</a></li>
+            <li><a href="https://www.linkedin.com/in/maccari78/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/maccari78" target="_blank">Github</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="acercaDe">
+            <h2>Acerca de mí</h2><br>
+            <p>Desde 2006 soy Soporte TI y desde 2011 realizo cursos de desarrollo de software. Soy Técnico Superior en Computación y cuento con 4 años de estudio formal de inglés.</p>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologías favoritas</h2><br>
+            <ul>
+                <li>
+                    <h3><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">HTML</a></h3>
+                    <img src="/modulo1/PM1-maccari78/assets/images/html_logo.png" alt="HTML_Logo">
+                </li>
+                <li>
+                    <h3><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">CSS</a></h3>
+                    <img src="/modulo1/PM1-maccari78/assets/images/css_logo.png" alt="CSS_Logo">
+                </li>
+                <li>
+                    <h3><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JavaScript</a></h3>
+                    <img src="/modulo1/PM1-maccari78/assets/images/js_logo.png" alt="JavaScript_Logo">
+                </li>
+            </ul>
+            <h2>Tecnologías que me gustaría aprender</h2><br>
+            <ul>
+                <li>
+                    <h3><a href="https://nextjs.org/" target="_blank">Next.js</a></h3>
+                    <img src="/modulo1/PM1-maccari78/assets/images/nextjs_logo.png" alt="NextJS_Logo">
+                </li>
+                <li>
+                    <h3><a href="https://nestjs.com/" target="_blank">Nest.js</a></h3>
+                    <img src="/modulo1/PM1-maccari78/assets/images/nestjs_logo.png" alt="NestJS_Logo">
+                </li>
+            </ul>
+        </section>
+
+        <section id="favActivities">
+            <h2>Mis Actividades Favoritas</h2><br>
+            <form id="form">
+                <label for="text">Título:</label>
+                <input type="text" id="text" placeholder="Leer" required><br><br>
+                <label for="description">Descripción:</label>
+                <textarea id="description" rows="2" placeholder="Me gusta la lectura, en particular el género de misterio" required>
+                </textarea><br><br>
+                <label for="imgUrl">URL de la imagen:</label>
+                <input type="url" id="imgUrl" placeholder="https://google.com" required><br><br>
+                <input type="submit" value="Enviar">
+            </form><br>
+            <div id="activity-container">
+                <ul id="activity-list"></ul>
+            </div><br>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho por maccari78. Todos los derechos reservados &copy; 2024</p>
+    </footer>
+
+    <script src="/modulo1/PM1-maccari78/scripts/scripts.js"></script>
+</body>
+</html>
